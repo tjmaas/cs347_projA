@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68CF1299-8104-377B-27EF-413045B7A484" name="ARL_Lab_Code">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lab_id" id="37DA5A87-C30F-B2EF-2E12-58E84829E15A">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>CC1A90A6-91D5-2D73-C3C1-9BE52BCC0055</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="lab_code" id="A4977A28-1302-B716-29B4-F2139FB5B3FA">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>8303295F-49EF-8FB0-0A58-289AB222C89B</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D9AA08E-539C-6162-BC8E-6ECB954767AD" name="{entity} PK">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37DA5A87-C30F-B2EF-2E12-58E84829E15A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

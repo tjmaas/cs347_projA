@@ -1,0 +1,135 @@
+DROP SEQUENCE ARL_DCode_seq ; 
+create sequence ARL_DCode_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER ARL_DCode_PK_trig 
+; 
+
+create or replace trigger ARL_DCode_PK_trig 
+before insert on ARL_DCode
+for each row 
+begin 
+select ARL_DCode_seq.nextval into :new.division_id from dual; 
+end; 
+/
+
+DROP SEQUENCE ARL_Employee_seq ; 
+create sequence ARL_Employee_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER ARL_Employee_PK_trig 
+; 
+
+create or replace trigger ARL_Employee_PK_trig 
+before insert on ARL_Employee
+for each row 
+begin 
+select ARL_Employee_seq.nextval into :new.user_id from dual; 
+end; 
+/
+
+DROP SEQUENCE ARL_Lab_Code_seq ; 
+create sequence ARL_Lab_Code_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER ARL_Lab_Code_PK_trig 
+; 
+
+create or replace trigger ARL_Lab_Code_PK_trig 
+before insert on ARL_Lab_Code
+for each row 
+begin 
+select ARL_Lab_Code_seq.nextval into :new.lab_id from dual; 
+end; 
+/
+
+DROP SEQUENCE ARL_NL_seq ; 
+create sequence ARL_NL_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER ARL_NL_PK_trig 
+; 
+
+create or replace trigger ARL_NL_PK_trig 
+before insert on ARL_NL
+for each row 
+begin 
+select ARL_NL_seq.nextval into :new.notification_list from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_Document_seq ; 
+create sequence NL_Document_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Document_PK_trig 
+; 
+
+create or replace trigger NL_Document_PK_trig 
+before insert on NL_Document
+for each row 
+begin 
+select NL_Document_seq.nextval into :new.document_id from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_Member_seq ; 
+create sequence NL_Member_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Member_PK_trig 
+; 
+
+create or replace trigger NL_Member_PK_trig 
+before insert on NL_Member
+for each row 
+begin 
+select NL_Member_seq.nextval into :new.member_id from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_m2n_seq ; 
+create sequence NL_m2n_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_m2n_PK_trig 
+; 
+
+create or replace trigger NL_m2n_PK_trig 
+before insert on NL_m2n
+for each row 
+begin 
+select NL_m2n_seq.nextval into :new.member_list from dual; 
+end; 
+/
+
+DROP INDEX ARL_Lab_Code_lab_id_FK_0 ;
+CREATE INDEX ARL_Lab_Code_lab_id_FK_0 ON ARL_DCode(ARL_Lab_Code_lab_id) ;
+DROP INDEX NL_Member_member_id_FK_1 ;
+CREATE INDEX NL_Member_member_id_FK_1 ON ARL_Employee(NL_Member_member_id) ;
+DROP INDEX NL_Member_member_id_FK_2 ;
+CREATE INDEX NL_Member_member_id_FK_2 ON ARL_NL(NL_Member_member_id) ;
+DROP INDEX NL_Member_member_id_FK_3 ;
+CREATE INDEX NL_Member_member_id_FK_3 ON NL_Document(NL_Member_member_id) ;
+DROP INDEX ARL_Employee_user_id_FK_4 ;
+CREATE INDEX ARL_Employee_user_id_FK_4 ON NL_Member(ARL_Employee_user_id) ;
+DROP INDEX ARL_NL_notification_li_FK_5 ;
+CREATE INDEX ARL_NL_notification_li_FK_5 ON NL_Member(ARL_NL_notification_list) ;
+DROP INDEX ARL_NL_notification_li_FK_6 ;
+CREATE INDEX ARL_NL_notification_li_FK_6 ON NL_m2n(ARL_NL_notification_list) ;
+DROP INDEX NL_Member_member_id_FK_7 ;
+CREATE INDEX NL_Member_member_id_FK_7 ON NL_m2n(NL_Member_member_id) ;

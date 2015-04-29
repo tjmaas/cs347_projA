@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37068FB6-AAB6-03CA-8601-A36075A1A471" name="ARL_Employee">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="FBAA0BFC-674E-34A3-58DA-2762A8CD50BF">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>9DDED640-6A1E-6461-1F1E-B27092E173AD</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="last_name" id="6A25EE7C-02E1-C820-E867-394EEE781D0F">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>419D1B57-87BC-454D-D7C7-42F523C0D017</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="first_name" id="64A9831F-2088-5E7F-4196-B59B865AE284">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>070C4852-9788-784E-8E52-9CA013ED9260</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="lab_code" id="A758D727-6557-E362-E4C1-AEE566904693">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>92E8B20D-0A4E-FE9B-8C8D-3CBB90E256C9</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="division_code" id="1F6215FB-8F26-B6E9-C737-66D3AC1C611E">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>5990A791-21C1-EC40-F7AC-37AFE29FA31E</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="4C3A476B-3C55-0118-2525-9984A379C11E">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>9F7FA65A-F17D-2369-9900-3F0899AC8FC0</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Attribute>
+<Attribute name="status_eff_date" id="C25DB261-22CB-9AF1-2F98-0A64FE65FFF1">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>CCFE1467-9F67-3149-BBFF-16B9CF7686D9</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="member_id" id="E23A1E58-3082-480D-D5E7-297A4BFD9B8D">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<generatorID>1F09BC13-6871-0EEC-87E4-87CA22244A8F</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>B03CFE22-C9B6-2A41-3C01-7ADC35A4038F</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>838E8DE8-0FC6-81C2-138F-C7085D2F11BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="BE1A1819-8022-D49F-F5E8-582C5C66D98F">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:30 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="779CC26D-7664-8183-0941-4C6C9AD1C5D4" name="{entity} PK">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBAA0BFC-674E-34A3-58DA-2762A8CD50BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

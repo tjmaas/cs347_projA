@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A745013-6B97-9EA3-25AC-B0B50CC93B38" name="ARL_NL">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="notification_list" id="5FE375E8-665A-E90C-49A1-E6BAD8C84179">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>C03CCFE7-49AC-1055-A8AD-A62F7EAC2688</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="F35FA1FB-6620-1C30-F4A0-A76F87275994">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>BC9D5EBE-3FC6-AD65-4EBB-E1619D45E78C</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="list_description" id="262A844F-4347-492D-4BA0-46C8504DE272">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>11C64A0E-D7D3-3506-FDC4-1C03778D8D35</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="owership_division_code" id="36E422C3-8D51-30A4-9512-6216A7322839">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>88A65A84-73DE-B1B7-4CBF-C0ABAE1F135B</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="external_view_name" id="4EE124F3-512A-270D-1A8F-5F4F46F3F50A">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>D20D0901-A2CE-7DBE-7E35-F7B100EFDEA0</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="status" id="5B12EE18-666B-860D-EA5E-DED5CB87344E">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>85B10234-3230-64CE-F9AE-9A8D651AB83E</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="status_effective_date" id="654753D1-7F06-30D6-C748-0D159AC266EF">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>9086F2DA-C721-9434-6D56-6EE0EDC6B2ED</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="member_id" id="3A725DBD-C52D-317A-205D-346DC738FC47">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<generatorID>9EB41DCC-6D07-21A7-9D83-B0E6779D14B9</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<importedID>126E4CB8-1505-1A1A-3054-AFA86367DF75</importedID>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>838E8DE8-0FC6-81C2-138F-C7085D2F11BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1E01741-4DCB-9E32-19C1-8B6DB096D157" name="{entity} PK">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:15:00 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="27B7B7D1-162F-50BA-9FF4-85B8F7DFB772" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FE375E8-665A-E90C-49A1-E6BAD8C84179</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

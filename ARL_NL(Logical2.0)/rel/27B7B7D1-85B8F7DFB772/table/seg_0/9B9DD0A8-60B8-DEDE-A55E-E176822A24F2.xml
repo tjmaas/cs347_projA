@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B9DD0A8-60B8-DEDE-A55E-E176822A24F2" name="ARL_NL">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>8A745013-6B97-9EA3-25AC-B0B50CC93B38</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="notification_list" id="D656033C-E76A-2045-9901-11607FC598B7">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>5FE375E8-665A-E90C-49A1-E6BAD8C84179</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F4D6C320-2F28-09FE-E6A0-EF6516C06144">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>F35FA1FB-6620-1C30-F4A0-A76F87275994</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_description" id="FC561752-5644-281E-DCDB-88F30760D036">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>262A844F-4347-492D-4BA0-46C8504DE272</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="owership_division_code" id="8A3FB21C-EBBE-A3AC-D2C4-C7C750808E32">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>36E422C3-8D51-30A4-9512-6216A7322839</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_view_name" id="A9E57155-67BC-80F1-D22E-73D88F257A16">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>4EE124F3-512A-270D-1A8F-5F4F46F3F50A</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="51866A43-DA4F-CF74-E3B0-276B6B11A505">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>5B12EE18-666B-860D-EA5E-DED5CB87344E</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="7AB05C65-BC88-9FAC-14E1-741AAFF55FBF">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>654753D1-7F06-30D6-C748-0D159AC266EF</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Member_member_id" id="FF495F6F-E8C6-7112-5E10-2B3D74417483">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>3A725DBD-C52D-317A-205D-346DC738FC47</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FEA78993-E0AB-B320-275F-8D3199DE7DFD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96BB7094-0EC7-6258-A51D-592EA9612484" referredColumn="FEA78993-E0AB-B320-275F-8D3199DE7DFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05B35670-1CD1-73DD-91AD-F776910026B2" name="ARL_NL_PK">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>D1E01741-4DCB-9E32-19C1-8B6DB096D157</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D656033C-E76A-2045-9901-11607FC598B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23064D9E-13F2-69C6-E98E-BC019A63A209" name="ARL_NL__IDX">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9EB41DCC-6D07-21A7-9D83-B0E6779D14B9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF495F6F-E8C6-7112-5E10-2B3D74417483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58BB4CEB-BE2A-3816-195F-BC7B2DAA6790" name="ARL_NL_NL_Member_FK">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:56:01 UTC</createdTime>
+<generatorID>9EB41DCC-6D07-21A7-9D83-B0E6779D14B9</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF495F6F-E8C6-7112-5E10-2B3D74417483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

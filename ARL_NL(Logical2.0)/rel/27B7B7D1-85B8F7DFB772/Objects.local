@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="331A0396-2257-7653-277C-B91AF40CDB7E" name="NL_Document" seqName="seg_0"/>
+   <object objectType="Table" objectID="61BE2637-B96C-8BD7-7E45-323E817AA6CF" name="ARL_Lab_Code" seqName="seg_0"/>
+   <object objectType="Table" objectID="63B322CF-C71E-5966-14B1-C30E591E0704" name="NL_m2n" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B9DD0A8-60B8-DEDE-A55E-E176822A24F2" name="ARL_NL" seqName="seg_0"/>
+   <object objectType="Table" objectID="AA72F55A-0924-290D-46A9-5B411BBDFD83" name="ARL_Employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="D151C9BD-BB71-024A-9994-59BBA84F8C6F" name="NL_Member" seqName="seg_0"/>
+   <object objectType="Table" objectID="FAA7BBAA-E1C0-5424-931F-5068BAE98581" name="ARL_DCode" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="04703B65-088D-D9EF-7011-7179E69C11CF" name="NL_Member_ARL_NL_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="302BFB21-120A-A22F-82CD-3FE677B815CE" name="NL_m2n_NL_Member_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3441D20A-CEA9-BA9A-8B70-CB4E41A1CF93" name="NL_Member_ARL_Employee_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="96BB7094-0EC7-6258-A51D-592EA9612484" name="ARL_NL_NL_Member_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A733502A-341C-A409-FE2B-DF8BC65D8FD2" name="NL_Document_NL_Member_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D1AF8684-4578-4B6B-F448-2BDCB9F8E846" name="NL_m2n_ARL_NL_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DE20599F-D538-E0D4-239D-DD4F3ED8B690" name="ARL_Employee_NL_Member_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F04BF097-5F54-A177-84AC-CCA4AD1FABAB" name="ARL_DCode_ARL_Lab_Code_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

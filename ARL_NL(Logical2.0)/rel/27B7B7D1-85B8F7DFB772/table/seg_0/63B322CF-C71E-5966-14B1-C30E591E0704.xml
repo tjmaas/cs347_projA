@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63B322CF-C71E-5966-14B1-C30E591E0704" name="NL_m2n">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>2B4940F7-0310-351D-CD88-3DAD5A911F82</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="member_list" id="018C9009-24A3-E101-0BB7-786F932A82C7">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>89F43197-8160-1070-7F3C-5D1CC48465E0</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Member_member_id" id="F37EFCAC-7699-135B-EFA4-E9BD2403A224">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>CD33C820-5E13-9F4E-AD5E-438CC20B2679</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>FEA78993-E0AB-B320-275F-8D3199DE7DFD</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302BFB21-120A-A22F-82CD-3FE677B815CE" referredColumn="FEA78993-E0AB-B320-275F-8D3199DE7DFD"/>
+</associations>
+</Column>
+<Column name="ARL_NL_notification_list" id="AD354B57-294A-639D-51A2-B4B05285045D">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>3F2AE1E8-8F5D-C129-C6A6-7FA372F555DB</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>D656033C-E76A-2045-9901-11607FC598B7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1AF8684-4578-4B6B-F448-2BDCB9F8E846" referredColumn="D656033C-E76A-2045-9901-11607FC598B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B75149BD-1B25-1426-57DD-C4C4216C6449" name="NL_m2n_PK">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>D212B63B-F64F-4E15-35F3-4A954657EEFE</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018C9009-24A3-E101-0BB7-786F932A82C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44B00966-5867-A2A5-D7D4-B1C011D2CFFB" name="NL_m2n_NL_Member_FK">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>BBC34840-907E-57CB-9EF5-CA2191E53F19</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F37EFCAC-7699-135B-EFA4-E9BD2403A224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C1CC4EF-B618-4031-E4DF-353ED7BA47EE" name="NL_m2n_ARL_NL_FK">
+<createdBy>terrencemaas</createdBy>
+<createdTime>2015-04-23 20:54:43 UTC</createdTime>
+<generatorID>E9FDAEE2-4CFD-E085-7637-8D73464686AA</generatorID>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD354B57-294A-639D-51A2-B4B05285045D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

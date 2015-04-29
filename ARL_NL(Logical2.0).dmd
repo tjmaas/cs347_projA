@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ARL_NL(Logical2.0)" id="AF883382-C33D-0B1C-2486-367024C0019A" version="3.5">
+<createdBy>erome_000</createdBy>
+<createdTime>2015-04-21 22:14:43 UTC</createdTime>
+<ownerDesignName>ARL_NL(Logical2.0)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AF883382-C33D-0B1C-2486-367024C0019A</designId>
+</OSDM_Design>
